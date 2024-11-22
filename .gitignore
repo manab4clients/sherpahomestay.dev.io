@@ -1,0 +1,3 @@
+# Ignore any folder, sub-folder & files with folder name .dev
+.dev/
+.hooks/

@@ -1,0 +1,7 @@
+# Force the following files to always use the current branch's version during merges
+.env merge=ours
+.gitattributes merge=ours
+.gitignore merge=ours
+README.md merge=ours
+CHANGELOG.md merge=ours
+.git-ftp-ignore merge=ours
