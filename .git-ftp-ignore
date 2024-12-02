@@ -1,0 +1,9 @@
+# FILES TO IGNORE FOR FTP UPLOAD
+# Ignoring Git related files
+.gitignore
+.git-ftp-ignore
+.dev/
+.coming-soon/
+
+
+
