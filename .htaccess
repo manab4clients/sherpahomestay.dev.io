@@ -1,0 +1,21 @@
+# Enable RewriteEngine
+
+RewriteEngine On
+
+# Base URL (adjust if your site is in a subdirectory)
+
+RewriteBase /
+
+# Exclude sitemap.xml from rewriting
+
+RewriteCond %{REQUEST_URI} !^/sitemap\.xml$
+
+# Rewrite any URL like /page-name to /page.php?name=page-name
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?page=$1 [L,QSA]
+
+# Optional: Hide .php extensions for cleaner URLs
+
+RewriteCond %{REQUEST*FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9*-]+)$ $1.php [L]

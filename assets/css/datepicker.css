@@ -1,0 +1,115 @@
+/**
+* Date picker
+*/
+.datepicker {
+	background-color: #ffffff;
+	border: none;
+    width: auto;
+  }
+  
+  .datepicker-dropdown {
+	top: 0;
+	left: 0;
+  }
+  
+  .datepicker table tr td.today, span.focused {
+	border-radius: 50% !important;
+  }
+  
+  thead tr:nth-child(2) {
+	background-color: var(--theme-color) !important;
+  }
+  
+  thead tr:nth-child(3) th {
+	color: var(--theme-color) !important;
+	padding-top: 20px;
+	padding-bottom: 10px;
+  }
+  
+  .dow, .old-day, .day, .new-day {
+	width: 40px !important;
+	height: 40px !important;
+	border-radius: 0px !important;
+  }
+  
+  .old-day:hover, .day:hover, .new-day:hover, .month:hover, .year:hover, .decade:hover, .century:hover {
+	border-radius: 50% !important;
+	background-color: #eee;
+  }
+  
+  .active {
+	border-radius: 50% !important;
+	background-image: linear-gradient(#05b24d, #056f31) !important;
+	color: #fff !important;
+  }
+  
+  .prev, .next, .datepicker-switch {
+	border-radius: 0 !important;
+	padding: 20px 10px !important;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	opacity: 0.8; 
+  }
+  
+  .prev:hover, .next:hover, .datepicker-switch:hover {
+	background-color: inherit !important;
+	opacity: 1;
+  }
+
+/**
+* 
+*/
+.child-policy .child-box {
+    /*border: 1px solid #e8e8e8;   /* Border for the box */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Shadow for the box */
+    padding: 10px;  /* Padding inside the box */
+    margin-bottom: 10px;  /* Space between boxes */
+    background-color: #FAF5F2 ;  /* Background color for the box */
+}
+
+.child-policy .child-box strong {
+    display: block;  /* Make strong a block element */
+    font-size: 1.1em;  /* Larger font size for the heading */
+    margin-bottom: 5px;  /* Space between heading and content */
+	padding-left: 15px;  /* Indentation for the rest of the content */
+	color: var(--theme-color);
+}
+
+.child-policy .child-box div {
+    padding-left: 15px;  /* Indentation for the rest of the content */
+}
+
+/** 
+* Terms
+*/
+.terms {
+  counter-reset: item;  /* Initialize counter */
+  list-style: none;     /* Remove default list styling */
+  padding-left: 0;      /* Remove default padding */
+}
+
+.terms li {
+  display: flex;
+  align-items: flex-start;
+}
+
+.terms li::before {
+  content: counters(item, '.') ' ';  /* Add leading zero */
+  counter-increment: item;           /* Increment the counter */
+  display: inline-block;
+  width: 2em;
+  margin-right: 0.5em;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.term-box {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Shadow for the box */
+  padding: 10px;   /* Padding inside the box */
+  margin-bottom: 10px;  /* Space between boxes */
+  background-color: #f9f9f9;  /* Background color for the box */
+  text-align: justify;  /* Align text */
+  word-wrap: break-word;  /* Wrap long text */
+  flex-grow: 1;
+}
