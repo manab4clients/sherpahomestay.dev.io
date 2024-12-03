@@ -1,12 +1,12 @@
     <!-- laoader-wrap -->
-    <div class="loader-wrap">
+    <!-- <div class="loader-wrap">
         <div class="preloader">
             <div class="preloader-close">Preloader Close</div>
         </div>
         <div class="layer layer-one"><span class="overlay"></span></div>
         <div class="layer layer-two"><span class="overlay"></span></div>
         <div class="layer layer-three"><span class="overlay"></span></div>
-    </div>
+    </div> -->
     <!-- header starts -->
     <header class="main-header header-style-one">
         <!-- header nav -->
