@@ -1,42 +1,14 @@
     <!-- laoader-wrap -->
     <div class="loader-wrap">
-        <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+        <div class="preloader">
+            <div class="preloader-close">Preloader Close</div>
+        </div>
         <div class="layer layer-one"><span class="overlay"></span></div>
-        <div class="layer layer-two"><span class="overlay"></span></div>        
-        <div class="layer layer-three"><span class="overlay"></span></div>        
+        <div class="layer layer-two"><span class="overlay"></span></div>
+        <div class="layer layer-three"><span class="overlay"></span></div>
     </div>
     <!-- header starts -->
     <header class="main-header header-style-one">
-
-        <!-- header top -->
-        <!-- <div class="header-top-1">
-            <div class="auto-container">
-                <div class="header-top-1-row d-flex align-items-center justify-content-between">
-                    <div class="header-top-1-left-column">
-                        <ul class="header-top-1-contact-info d-flex align-items-center">
-                            <li><a href="mailto:info@example.com">info@example.com</a></li>
-                            <li><a href="tel:+91-213-666-0027">+91-213-666-0027</a></li>
-                        </ul>
-                    </div>
-                    <div class="header-top-1-right-column d-flex align-items-center">
-                        <div class="language-switcher">
-                            <select>
-                                <option data-display="EN">EN</option>
-                                <option value="BN">BN</option>
-                                <option value="FR">FR</option>
-                                <option value="CH">CH</option>
-                            </select>
-                        </div>
-                        <ul class="header-top-1-social-icon d-flex align-items-center">
-                            <li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
         <!-- header nav -->
         <div class="header-upper">
             <div class="auto-container">
@@ -65,10 +37,6 @@
                             </nav>
                         </div>
                     </div>
-                    <!-- <div class="right-column d-flex align-items-center">
-                        <button type="button" class="theme-btn search-toggler"><i class="icon-1"></i></button>                        
-                        <div class="header-link-btn"><a href="javascript:void(0);" class="btn-1 btn-small btn-alt">Book Your Stay <span></span></a></div>
-                    </div>                       -->
                 </div>
             </div>
         </div>
@@ -87,7 +55,7 @@
                             <div class="nav-outer">
                                 <!--Mobile Navigation Toggler-->
                                 <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar-2.png" alt=""></div>
-    
+
                                 <!-- Main Menu -->
                                 <nav class="main-menu navbar-expand-md navbar-light">
                                 </nav>
@@ -105,19 +73,21 @@
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><span class="fal fa-times"></span></div>
-            
+
             <nav class="menu-box">
                 <div class="nav-logo"><a href="/"><img src="assets/images/logo-light.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-				<!--Social Links-->
-				<div class="social-links">
-					<ul class="clearfix">
-						<li><a href="#"><span class="fab fa-twitter"></span></a></li>
-						<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-						<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-						<li><a href="#"><span class="fab fa-instagram"></span></a></li>
-						<li><a href="#"><span class="fab fa-youtube"></span></a></li>
-					</ul>
+                <!--Social Links-->
+                <div class="social-links">
+                    <ul class="clearfix">
+
+                        <li><a href="<?= $facebook ?>"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="<?= $youtube ?>"><span class="fab fa-youtube"></span></a></li>
+                        <li><a href="<?= $youtube ?>"><span class="fab fa-twitter"></span></a></li>
+                        <!-- <li><a href=""><span class="fas fa-map-marker-alt"></span></a></li> -->
+                        <li><a href="//wa.ma/<?= hrefPhoneNumber($phone) ?>"><span class="fab fa-whatsapp"></span></a></li>
+
+                    </ul>
                 </div>
             </nav>
         </div>
@@ -130,7 +100,7 @@
 
     </header>
     <!-- header starts -->
-     <!-- search popup -->
+    <!-- search popup -->
     <!-- <div id="search-popup" class="search-popup">
         <div class="close-search theme-btn"><span class="fal fa-times"></span></div>
         <div class="popup-inner">

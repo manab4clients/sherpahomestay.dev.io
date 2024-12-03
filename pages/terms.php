@@ -36,7 +36,7 @@
                                 <strong>Hot Water Timing:</strong>
                                 <div>
                                     <span class="highlight">Morning: </span> 7:30-9:00 am
-                                    <span class="highlight">Evening: </span> 8:30-9:30 pm
+                                    <span class="highlight">Evening: </span> 8:00-9:00 pm
                                 </div>
                             </li>
 
@@ -56,6 +56,7 @@
                             <li class="term-box">If the power cuts off or the backup supply fails, please cooperate with us.</li>
                             <li class="term-box">After 10:30 p.m. no guests are allowed to go outside the property</li>
                             <li class="term-box">No food can be served in the room except for senior citizens, with 10% extra charges</li>
+                            <li class="term-box">Outside foods not allowed.</li>
                         </ol>
                         <div class="text-end">
                             <p><span class="highlight">- Team Jhandi Sherpa Homestay</span></p>
