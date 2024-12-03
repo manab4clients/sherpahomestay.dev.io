@@ -83,9 +83,8 @@
 
                         <li><a href="<?= $facebook ?>"><span class="fab fa-facebook-square"></span></a></li>
                         <li><a href="<?= $youtube ?>"><span class="fab fa-youtube"></span></a></li>
-                        <li><a href="<?= $youtube ?>"><span class="fab fa-twitter"></span></a></li>
                         <!-- <li><a href=""><span class="fas fa-map-marker-alt"></span></a></li> -->
-                        <li><a href="//wa.ma/<?= hrefPhoneNumber($phone) ?>"><span class="fab fa-whatsapp"></span></a></li>
+                        <li><a href="//wa.me/<?= hrefPhoneNumber($phone) ?>"><span class="fab fa-whatsapp"></span></a></li>
 
                     </ul>
                 </div>

@@ -17,7 +17,7 @@
                             <ul class="footer-social-icon d-flex align-items-center">
                                 <li><a href="<?= $facebook ?>"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="<?= $youtube ?>"><i class="fab fa-youtube"></i></a></li>
-                                <li><a href="<?= $twitter ?>"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="//wa.me/<?= hrefPhoneNumber($phone) ?>"><i class="fab fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                     </div>
