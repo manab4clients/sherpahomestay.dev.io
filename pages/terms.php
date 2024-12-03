@@ -1,4 +1,4 @@
-    <div class="page-title" style="background-image: url(assets/images/background/terms.webp);">
+    <div class="page-title" style="background-image: url(assets/images/background/terms2.webp);">
         <div class="auto-container">
             <h1>Terms</h1>
         </div>
